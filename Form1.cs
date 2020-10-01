@@ -37,6 +37,7 @@ namespace Grocery_shop_billing
         {
             String uname = textBox1.Text;
             String pass = textBox2.Text;
+            //This condition is used for validation
             if (uname.Equals("rachana") && pass.Equals("1234"))
             {
                 var nextForm = new Form2();
