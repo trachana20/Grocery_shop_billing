@@ -36,7 +36,7 @@ namespace Grocery_shop_billing
         {
 
         }
-
+// radio buttons for vegetables
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             radioButton1.ForeColor = System.Drawing.Color.Green;
@@ -52,7 +52,7 @@ namespace Grocery_shop_billing
 
 
         }
-
+// radio buttons for fruits
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             radioButton1.ForeColor = System.Drawing.Color.Red;
@@ -66,7 +66,7 @@ namespace Grocery_shop_billing
             comboBox1.Items.Add("Guava");
             comboBox1.Items.Add("Orange");
         }
-
+// combination of item selected with its price
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBox1.SelectedItem.ToString() == "Tomato") { txt_price.Text = "50"; }
